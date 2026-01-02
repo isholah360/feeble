@@ -47,7 +47,7 @@ const App = () => {
   gsap.fromTo(
     heroCloud.current,
     { 
-      y: 100,       // start lower
+      y: -200,       // start lower
       opacity: 0    // invisible
     },
     { 
@@ -57,7 +57,7 @@ const App = () => {
       ease: "power3.out",
       scrollTrigger: {
         trigger: heroCloud.current,
-        start: "top 100%",  // start animation later
+        start: "top 70%",  // start animation later
         end: "top 60%",    // animation ends further down
         scrub: 1,          // smooth over scroll
         toggleActions: "play none none none",
@@ -198,7 +198,7 @@ const App = () => {
             Get Started
           </button>
           <button
-            // ref={(el) => setButtonRef(el, 1)}
+            ref={(el) => setButtonRef(el, 1)}
             className="border border-gray-500 hover:border-gray-400 h-9 px-4 rounded-full font-medium transition flex items-center justify-center"
           >
             <img src="./apple-logo.png" alt="" className="w-4 h-4 mr-2" />

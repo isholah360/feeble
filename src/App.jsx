@@ -191,12 +191,12 @@ const App = () => {
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4">
-          <div
+          <button
             ref={(el) => setButtonRef(el, 0)}
-            className="bg-[#007bff] hover:bg-blue-700 text-white h-9 px-4 flex items-center rounded-full transition"
+            className="bg-[#007bff] hover:bg-blue-700 text-white h-9 px-4 flex items-center justify-center rounded-full transition"
           >
             Get Started
-          </div>
+          </button>
           <button
             // ref={(el) => setButtonRef(el, 1)}
             className="border border-gray-500 hover:border-gray-400 h-9 px-4 rounded-full font-medium transition flex items-center justify-center"

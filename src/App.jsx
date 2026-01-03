@@ -260,6 +260,15 @@ const App = () => {
           <img src="./ha.png" alt="" />
         </div>
 
+
+        <div className="absolute top-[60%] right-[45%]  z-30 floating-bird md:block">
+          Scroll to learn more
+          <br />
+          <span className="text-2xl flex items-center justify-center"> &#8595; </span>
+        </div>
+
+
+
         <div class="absolute z-10 bottom-0 left-0 w-full h-2/3">
           <div class="absolute top-[-5rem] left-[-20%] w-[25rem] h-[25rem] bg-[#d4e8ff] rounded-[100%]"></div>
           <div class="absolute top-0 left-[-2%] w-[25rem] h-[25rem] bg-[#d4e8ff] rounded-[100%]"></div>

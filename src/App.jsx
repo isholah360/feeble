@@ -261,10 +261,10 @@ const App = () => {
         </div>
 
 
-        <div className="absolute top-[60%] right-[45%]  z-30 floating-bird md:block">
+        <div className="absolute top-[60%] w-full text-center z-30 floating-bird md:block">
           Scroll to learn more
           <br />
-          <span className="text-2xl flex items-center justify-center"> &#8595; </span>
+          <span className="text-2xl flex items-center justify-center font-extrabold"> &#8595; </span>
         </div>
 
 
